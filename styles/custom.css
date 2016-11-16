@@ -1,0 +1,5 @@
+.twitter-tweet-rendered {
+  transform: scale(1.66) !important;
+  transform-origin: 0 0;
+  margin: 100px 40px !important;
+}
