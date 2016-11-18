@@ -43,3 +43,7 @@
 p.venue {
   font-style: italic;
 }
+
+.label {
+  position: absolute;
+}
