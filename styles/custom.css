@@ -47,3 +47,8 @@ p.venue {
 .label {
   position: absolute;
 }
+
+iframe.website {
+  width: 100%;
+  height: 462px;
+}
