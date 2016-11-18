@@ -100,7 +100,7 @@
   </div>
 
   <div class="slide" id="rest">
-    <h2>Design things that work<br>like the <em>rest</em> of the Web.</h2>
+    <h2>Design things that work<br> like the <em>rest</em> of the Web.</h2>
     <ul>
       <li class="next">Do you know any Web developer<br>
         who gives public access to a MySQL database?
@@ -112,6 +112,40 @@
       <li class="next">Then why would the same thing suddenly<br>
         work with a public RDF database?
         <ul><li class="next"><em>It's the Semagic Web!</em></li></ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="sparql-endpoints">
+    <h2>Public SPARQL endpoints do not scale,<br> and never will.</h2>
+    <ul>
+      <li class="next">More than half of all public SPARQL endpoints<br>
+        have an uptime of ≤ 95%.
+        <ul><li class="next">The rest of the Web measures uptime in <em>number of nines</em>.</li></ul>
+      </li>
+      <li class="next">The average endpoint is down<br> for more than 1.5 days each month.
+        <ul><li class="next">We cannot build reliable applications on top of this.</li></ul>
+      </li>
+      <li class="next">This problem is <em>inherent</em> to such complex interfaces.
+        <ul><li>Engineering and faster endpoints cannot fix it.</li></ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="federation">
+    <h2>The true potential of Linked Data<br> lies in connecting datasets.</h2>
+    <ul>
+      <li class="next">Problems get progressively worse<br>
+          if we want to query <em>multiple</em> datasets.
+          <ul class="next">
+            <li>1 dataset: 95%</li>
+            <li>2 datasets: 90%</li>
+            <li>5 datasets: 77%</li>
+          </ul>
+      </li>
+      <li class="next">Yet this is our main differentiator!</li>
+      <li class="next">Back to hosting our own private endpoints?
+        <ul><li class="next">Goodbye Semantic <em>Web</em>…</li></ul>
       </li>
     </ul>
   </div>
