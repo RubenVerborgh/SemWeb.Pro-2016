@@ -290,6 +290,74 @@ LIMIT 100</code></pre>
     </blockquote>
   </div>
 
+  <div class="slide" id="no-silver-bullet">
+    <h2>
+      There's no silver bullet.<br>
+      There's no single metric.
+    </h2>
+    <ul>
+      <li class="next">Most query papers focus on execution time.
+        <ul>
+          <li class="next">Execution can always be made faster with centralization.</li>
+          <li class="next">What if that time cannot be achieved on the public Web?</li>
+        </ul>
+      </li>
+      <li class="next">To build a Semantic <em>Web</em>,<br>
+        we need to ask the important questions.
+        <ul>
+          <li class="next">How does it scale?</li>
+          <li class="next">What does it cost to scale?</li>
+          <li class="next">Do the most important results arrive sooner?</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="tpf-evaluation-machines">
+    <h2>
+      We compared Triple Pattern Fragments<br>
+      against SPARQL endpoints.
+    </h2>
+    <p>We ran the <a href="http://wifo5-03.informatik.uni-mannheim.de/bizer/berlinsparqlbenchmark/">Berlin SPARQL benchmark</a> with:</p>
+    <ul>
+      <li>1–244 simultaneous clients</li>
+      <li>1 cache</li>
+      <li>1 server</li>
+    </ul>
+  </div>
+
+  <div class="slide" id="tpf-evaluation-throughput">
+    <h2>
+      The query throughput is lower,<br>
+      but resilient to high client numbers.
+    </h2>
+    <img src="images/tpf-throughput.svg" alt="[throughput of different SPARQL query solutions]">
+  </div>
+
+  <div class="slide" id="tpf-evaluation-server-bandwidth">
+    <h2>
+      The server traffic is higher,<br>
+      but individual requests are lighter.
+    </h2>
+    <img src="images/tpf-server-traffic.svg" alt="[server traffic of different SPARQL query solutions]">
+  </div>
+
+  <div class="slide" id="tpf-evaluation-cache-bandwidth">
+    <h2>
+      Caching is significantly more effective,<br>
+      as clients reuse fragments for queries.
+    </h2>
+    <img src="images/tpf-cache-traffic.svg" alt="[cache usage of different SPARQL query solutions]">
+  </div>
+
+  <div class="slide" id="tpf-evaluation-server-cpu">
+    <h2>
+      The server requires much less CPU,<br>
+      allowing higher availability at lower cost.
+    </h2>
+    <img src="images/tpf-server-cpu.svg" alt="[server CPU usage of different SPARQL query solutions]">
+  </div>
+
   <div class="slide" id="final-answer">
     <h2>
       Triple patterns are not the final answer.<br>
@@ -297,7 +365,6 @@ LIMIT 100</code></pre>
     </h2>
     <ul>
       <li class="next">
-        There's no <em>silver bullet</em>.<br>
         Publication and querying <em>always</em> involves trade-offs.
       </li>
       <li class="next">
