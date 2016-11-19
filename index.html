@@ -228,30 +228,27 @@
     <iframe class="website" src="http://fragments.dbpedia.org/2016-04/en?subject=&amp;predicate=http%3A%2F%2Fdbpedia.org%2Fontology%2FbirthPlace&amp;object=http%3A%2F%2Fdbpedia.org%2Fresource%2FParis"></iframe>
   </div>
 
-  <div class="slide" id="hdt">
+  <div class="slide" id="tpf-execution-example">
     <h2>
-      Triple Pattern Fragments are lightweight,<br>
-      because they do not <em>require</em> a triple store.
+      SPARQL queries are executed by <em>clients</em>,<br>
+      by splitting them in supported fragments.
     </h2>
-    <ul>
-      <li>
-        The interface can be realized with many back-ends.<br>
-        <ul>
-          <li>A SPARQL endpoint <em>could</em> serve as back-end.</li>
-        </ul>
-      </li>
-      <li class="next">
-        Since queries are relatively simple,<br>
-        a less expensive data infrastructure is sufficient.
-      </li>
-      <li class="next">
-        The <a href="http://www.rdfhdt.org/">Header–Dictionary–Triples (HDT)</a> format<br>
-        stores triples in a compressed file.
-        <ul>
-          <li>Especially triple-pattern lookups (and counts) are fast.</li>
-        </ul>
-      </li>
-    </ul>
+    <pre><code>SELECT  ?person  ?name  WHERE {
+    ?person  rdfs:label  ?name;
+             rdf:type  dbpedia-owl:Artist;
+             dbpedia-owl:birthPlace  ?city.
+    ?city  rdfs:label  "Paris"@en.
+}
+LIMIT 100</code></pre>
+    <p>Datasource: <a href="http://fragments.dbpedia.org/2016-04/en">http://fragments.dbpedia.org/2016-04/en</a></p>
+  </div>
+
+  <div class="slide" id="tpf-query-client">
+    <h2>
+      This <a href="http://client.linkeddatafragments.org/#query=SELECT%20%20%3Fperson%20%20%3Fname%20%20WHERE%20%7B%0A%20%20%20%20%3Fperson%20%20rdfs%3Alabel%20%20%3Fname%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20rdf%3Atype%20%20dbpedia-owl%3AArtist%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20dbpedia-owl%3AbirthPlace%20%20%3Fcity.%0A%20%20%20%20%3Fcity%20%20foaf%3Aname%20%20%22Paris%22%40en.%0A%7D%0ALIMIT%20100">browser client</a> executes<br>
+      a complex query with fragments.
+    </h2>
+    <iframe class="website" src="http://client.linkeddatafragments.org/#query=SELECT%20%20%3Fperson%20%20%3Fname%20%20WHERE%20%7B%0A%20%20%20%20%3Fperson%20%20rdfs%3Alabel%20%20%3Fname%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20rdf%3Atype%20%20dbpedia-owl%3AArtist%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20dbpedia-owl%3AbirthPlace%20%20%3Fcity.%0A%20%20%20%20%3Fcity%20%20foaf%3Aname%20%20%22Paris%22%40en.%0A%7D%0ALIMIT%20100"></iframe>
   </div>
 
   <div class="toc slide" id="toc-decentralization">
