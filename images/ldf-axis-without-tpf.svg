@@ -75,7 +75,4 @@ text {
   <line x1="73%" x2="73%" y1="65%" y2="71%" class="tick"/>
   <line x1="95%" x2="95%" y1="65%" y2="71%" class="tick"/>
   <text x="50%" y="97%" class="caption middle">interface offered by the server</text>
-
-  <text x="43%" y="79%" class="label middle">Triple Pattern</text>
-  <text x="43%" y="87%" class="label middle">Fragments</text>
 </svg>

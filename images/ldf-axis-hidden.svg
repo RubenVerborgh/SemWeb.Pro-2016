@@ -64,18 +64,4 @@ text {
 
   <text  x="98%"  y="79%" class="label right">SPARQL</text>
   <text  x="98%"  y="87%" class="label right">endpoint</text>
-
-  <line x1="0%" y1="68%" x2="100%" y2="68%" class="axis"/>
-  <line x1="5%"  x2="5%"  y1="65%" y2="71%" class="tick"/>
-  <line x1="19%" x2="19%" y1="65%" y2="71%" class="tick"/>
-  <line x1="29%" x2="29%" y1="65%" y2="71%" class="tick"/>
-  <line x1="43%" x2="43%" y1="65%" y2="71%" class="tick"/>
-  <line x1="51%" x2="51%" y1="65%" y2="71%" class="tick"/>
-  <line x1="63%" x2="63%" y1="65%" y2="71%" class="tick"/>
-  <line x1="73%" x2="73%" y1="65%" y2="71%" class="tick"/>
-  <line x1="95%" x2="95%" y1="65%" y2="71%" class="tick"/>
-  <text x="50%" y="97%" class="caption middle">interface offered by the server</text>
-
-  <text x="43%" y="79%" class="label middle">Triple Pattern</text>
-  <text x="43%" y="87%" class="label middle">Fragments</text>
 </svg>
