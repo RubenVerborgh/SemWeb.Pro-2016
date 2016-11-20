@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="900" height="400">
+<style>
+@font-face{
+ font-family: 'Open Sans';
+ src: url(../../_shared/fonts/OpenSans.woff) format('woff')
+}
+@font-face{
+ font-style: italic;
+ font-family: 'Open Sans';
+ src: url(../../_shared/fonts/OpenSans.Italic.woff) format('woff')
+}
+@font-face{
+ font-weight: 700;
+ font-family: 'Open Sans';
+ src: url(../../_shared/fonts/OpenSans.Bold.woff) format('woff')
+}
+
+line {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+text { font: 26px 'Open Sans'; }
+#values text { font-style: italic; }
+#labels text { font-weight: bold }
+#labels line { stroke: #dddddd; }
+rect { fill: #bbbbbb; }
+.tpf { fill: #453688; }
+</style>
+<g id="values">
+  <rect x="807.03" y="303.59" width="8.53" height="27.71"  class="tpf"/>
+  <rect x="706.86" y="185.66" width="8.53" height="145.65" class="tpf"/>
+  <rect x="606.7"  y="281.4"  width="8.53" height="49.91"  class="tpf"/>
+  <rect x="506.53" y="322.52" width="8.53" height="8.79"   class="tpf"/>
+  <rect x="406.36" y="274.56" width="8.53" height="56.74"  class="tpf"/>
+  <rect x="306.19" y="280.81" width="8.53" height="50.49"  class="tpf"/>
+  <rect x="206.03" y="322.62" width="8.53" height="8.68"   class="tpf"/>
+  <rect x="105.86" y="298.28" width="8.53" height="33.03"  class="tpf"/>
+  <rect x="819.83" y="235.56" width="8.53" height="95.75" />
+  <rect x="719.66" y="331.25" width="8.54" height="0.06"  />
+  <rect x="619.5"  y="232.26" width="8.53" height="99.05" />
+  <rect x="519.33" y="324.4"  width="8.53" height="6.9"   />
+  <rect x="419.16" y="330.55" width="8.54" height="0.75"  />
+  <rect x="319"    y="271.22" width="8.53" height="60.08" />
+  <rect x="218.83" y="331.27" width="8.53" height="0.04"  />
+  <rect x="118.66" y="328.89" width="8.53" height="2.41"  />
+  <rect x="832.63" y="192.2"  width="8.54" height="139.11"/>
+  <rect x="732.46" y="268.09" width="8.53" height="63.21" />
+  <rect x="632.3"  y="213.73" width="8.53" height="117.57"/>
+  <rect x="532.13" y="259.65" width="8.53" height="71.65" />
+  <rect x="431.96" y="331.21" width="8.53" height="0.09"  />
+  <rect x="331.8"  y="40.54"  width="8.53" height="290.76"/>
+  <rect x="131.46" y="97.82"  width="8.54" height="233.49"/>
+  <rect x="845.43" y="328.08" width="8.54" height="3.22"  />
+  <rect x="745.27" y="325.61" width="8.53" height="5.69"  />
+  <rect x="645.1"  y="329.18" width="8.54" height="2.12"  />
+  <rect x="544.93" y="329.87" width="8.53" height="1.43"  />
+  <rect x="444.77" y="330.29" width="8.53" height="1.02"  />
+  <rect x="344.6"  y="324.75" width="8.53" height="6.56"  />
+  <rect x="244.43" y="330.2"  width="8.53" height="1.11"  />
+  <rect x="144.26" y="327.11" width="8.53" height="4.19"  />
+  <rect x="858.23" y="305.28" width="8.54" height="26.03" />
+  <rect x="758.07" y="277.26" width="8.54" height="54.05" />
+  <rect x="657.9"  y="319.29" width="8.54" height="12.01" />
+  <rect x="557.73" y="323.82" width="8.54" height="7.49"  />
+  <rect x="457.57" y="328.51" width="8.53" height="2.79"  />
+  <rect x="357.4"  y="271.77" width="8.53" height="59.54" />
+  <rect x="257.23" y="328.57" width="8.53" height="2.73"  />
+  <rect x="157.07" y="294.09" width="8.53" height="37.21" />
+  <text x="610" y="95">query execution time (s)</text>
+</g>
+<g id="labels">
+  <text x="107.519"  y="384.9668">LD1</text>
+  <text x="207.6831" y="384.9668">LD2</text>
+  <text x="307.8462" y="384.9668">LD3</text>
+  <text x="408.0112" y="384.9668">LD4</text>
+  <text x="508.1807" y="384.9668">LD5</text>
+  <text x="608.3438" y="384.9668">LD6</text>
+  <text x="708.5088" y="384.9668">LD7</text>
+  <text x="808.6719" y="384.9668">LD8</text>
+
+  <line x1="186" y1="331" x2="186" y2="11"/>
+  <line x1="286" y1="331" x2="286" y2="11"/>
+  <line x1="386" y1="331" x2="386" y2="11"/>
+  <line x1="486" y1="331" x2="486" y2="11"/>
+  <line x1="586" y1="331" x2="586" y2="11"/>
+  <line x1="687" y1="331" x2="687" y2="140"/>
+  <line x1="787" y1="331" x2="787" y2="140"/>
+</g>
+<g id="ticks">
+  <text x="30.5942"  y="218.3438">50</text>
+  <text x="15.6562"  y="94.9692">100</text>
+  <path stroke="#808080" d="M75.54,85.18h18.22 M75.54,208.35h18.22"/>
+</g>
+<g id="axis">
+  <line x1="84.65" y1="331.31" x2="884.49" y2="331.31"/>
+  <line x1="84.65" y1="331.31" x2="84.65"  y2="19.81"/>
+  <polyline points="84.65,11.27 77.82,24.93 84.65,19.81 91.47,24.93 "/>
+</g>
+</svg>

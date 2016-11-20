@@ -90,7 +90,7 @@
         <ul><li>Just because it's <em>fast</em>, doesn't mean it <em>scales</em>.</li></ul>
       </li>
       <li class="next">It's a matter of <strong>redesigning</strong>.
-        <ul><li>Putting scale before performance.</li></ul>
+        <ul><li>Putting scale before speed.</li></ul>
       </li>
       <li class="next">It's a matter of <strong>measuring</strong>.
         <ul><li>We should measure and compare multiple dimensions.</li></ul>
@@ -356,6 +356,31 @@ LIMIT 100</code></pre>
       allowing higher availability at lower cost.
     </h2>
     <img src="images/tpf-server-cpu.svg" alt="[server CPU usage of different SPARQL query solutions]">
+  </div>
+
+  <div class="slide" id="tpf-evaluation-federated">
+    <h2>
+      Federation is the killer use case<br>
+      for Linked Data on the Web.
+    </h2>
+    <ul>
+      <li class="next">Linked Data excels at data integration.</li>
+      <li class="next">Do our results extend to federation as well?</li>
+      <li class="next">We tested this with <a href="http://fedbench.fluidops.net/resource/Help:Start">FedBench</a>:
+        <ul>
+          <li>state-of-the-art federation with 9 SPARQL endpoints</li>
+          <li>TPF client federation with 9 TPF interfaces</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="slide" id="tpf-evaluation-federated-results">
+    <h2>
+      In federated scenarios, light interfaces<br>
+      can achieve fast queries times as well.
+    </h2>
+    <img src="images/tpf-federated.svg" alt="[execution time of federated queries]">
   </div>
 
   <div class="slide" id="final-answer">
