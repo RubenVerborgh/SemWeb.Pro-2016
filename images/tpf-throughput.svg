@@ -4,17 +4,17 @@
 <style>
 @font-face{
  font-family: 'Open Sans';
- src: url(../fonts/OpenSans.woff) format('woff')
+ src: local('Open Sans'), url(../fonts/OpenSans.woff) format('woff')
 }
 @font-face{
  font-style: italic;
  font-family: 'Open Sans';
- src: url(../fonts/OpenSans.Italic.woff) format('woff')
+ src: local('Open Sans'), url(../fonts/OpenSans.Italic.woff) format('woff')
 }
 @font-face{
- font-weight: 700;
+ font-weight: bold;
  font-family: 'Open Sans';
- src: url(../fonts/OpenSans.Bold.woff) format('woff')
+ src: local('Open Sans'), url(../fonts/OpenSans.Bold.woff) format('woff')
 }
 
 polyline {
@@ -26,7 +26,6 @@ line {
   stroke: black;
   stroke-width: 2px;
 }
-
 text   { font: 22px 'Open Sans'; }
 .label { font-weight: bold; }
 .title { font-size: 26px; }
