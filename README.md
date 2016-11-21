@@ -10,4 +10,4 @@ and why we need to think in a much more decentralized way.
 If we want the Semantic Web to be succeed for real users,
 it has to work on a Web scale.
 
-[Slides](https://rubenverborgh.github.io/SemWeb.Pro-2016/)
+[Slides](http://slides.verborgh.org/SemWeb.Pro-2016/)
