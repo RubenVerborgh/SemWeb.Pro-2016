@@ -4,31 +4,6 @@
   margin: 100px 40px !important;
 }
 
-.shower .slide.toc {
-  border-left: 40px solid #453688;
-  padding-left: 140px;
-}
-.shower .slide.toc h2 {
-  font-style: italic;
-  position: absolute;
-  right: 60px;
-  bottom: 0;
-  min-height: 0;
-}
-.shower .slide.toc ul {
-  margin-top: 144px;
-}
-.shower .slide.toc a {
-  font-weight: normal;
-}
-.shower .slide.toc a:not(:hover) {
-  background-image: none;
-}
-.shower .slide.toc .current a {
-  color: #453688;
-  font-weight: bold;
-}
-
 .shower .slide.large p {
   font-size: 1.5em;
   line-height: 1.5;
